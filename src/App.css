@@ -1,0 +1,191 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  /* overflow: hidden;   */
+  transition: all ease 0.5s;
+}
+body::-webkit-scrollbar{
+  scroll-behavior: none;
+  width: 0rem;
+}
+.nav3line{
+  background-color: white;
+  /* border: none; */
+  /* outline: none; */
+  /* margin: 10px 10px; */
+}
+.logo{
+  width: 122px;
+  height: 50px;
+}
+.long{
+  width: 30rem !important;
+  margin-right: 40px;
+}
+.bodycon{
+  /* border: 2px solid white; */
+  height: 90vh;
+  display: flex;
+}
+.leftbody{
+  /* border: 2px solid red; */
+  width:5%;
+  display: flex;
+  justify-content: center;
+  /* color: black; */
+  padding-left: 25px;
+  padding-top: 25px;
+}
+.leftbody li{
+  list-style: none;
+  margin-bottom: 8px;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 9px 9px;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+.activex{
+  background-color: #feefc3;
+}
+.leftbody li:hover{
+  background-color: #feefc3;
+  /* color: white; */
+}
+li .css-i4bv87-MuiSvgIcon-root{
+  font-size: 25px !important;
+}
+.rightbody{
+  /* border: 2px solid black; */
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.topcon{
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  margin-top: 2rem;
+  /* height: 15vh; */
+  width: 30vw;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px black;
+}
+.inputf{
+  letter-spacing: .01428571em;
+  font-size: 20px;
+  outline: none;
+  font-family: 'Amaranth', sans-serif;
+  font-weight: 400;
+  line-height: 1.25rem;
+  padding: 10px 10px;
+  border: none;
+}
+textarea{
+  resize: none; /* Disable user resizing */
+  overflow: hidden !important; /* Hide vertical scrollbar */
+  height: auto !important;
+  min-height: 50px; /* Set a minimum height */
+  max-height: 200px !important;  
+}
+.title{
+  font-family: 'Amaranth', sans-serif;
+  border-bottom: none;
+  border-bottom-left-radius: none;
+  border-bottom-right-radius:none ;
+}
+.bottomcon{
+  /* border: 2px solid black; */
+  height: 100vh;
+  width: 100%;
+}
+.mainbottomcon{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: top;
+  align-items: center;
+  /* height: 100vh; */
+  width: 95%;
+  flex-wrap:wrap;
+}
+.itemBox{
+  /* border: 2px solid black; */
+  width: 20%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #6B8E23;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgb(67, 67, 67);
+}
+.titlex{
+  font-family: 'Amaranth', sans-serif;
+  font-size: 30px;
+}
+.tx{
+  inline-size: 250px;
+  overflow-wrap: break-word;
+}
+.color{
+  padding: 0;
+  width: 150%;
+  height: 150%;
+  margin: -25%;
+  cursor: pointer;
+}
+.cp_wrapper {
+  overflow: hidden;
+  width: 2em;
+  height: 2em;
+  /* optional formatting below here */
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px 0px grey;   
+  border: 3px solid white;
+  margin-right: 15px;
+}
+.confunc{
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.deleteico{
+  border: 2px solid black;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+.css-i4bv87-MuiSvgIcon-root{
+  font-size: 30px !important;
+}
+.deleteico:hover{
+  color: red;
+}
+.navicon{
+  margin-left: 10px;
+  transition: all ease 0.5s;
+}
+.navicon:hover{
+  /* border: 2px solid black; */
+  background-color: #f1f3f4;
+  border-radius: 50%;
+  color: black;
+}
